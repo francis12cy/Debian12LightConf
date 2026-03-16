@@ -1,7 +1,7 @@
 # Debian12LightConf
 Configuración de Debian 12 para equipos de muy bajos recursos.
 
-# Guía de Instalación Minimalista Linux 32-bits en mi caso
+# Guía de Instalación Minimalista Linux 32-bits en este caso
 **Hardware:** Intel Atom (32-bits) / 2GB RAM
 **Objetivo:** Sistema base en consola pura con entorno gráfico a demanda (Openbox), gestión de red terminal-gráfica y VPN WireGuard.
 
