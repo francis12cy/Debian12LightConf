@@ -1,7 +1,7 @@
 # Debian12LightConf
 Configuración de Debian 12 para equipos de muy bajos recursos.
 
-# Guía de Instalación Minimalista Linux 32-bits
+# Guía de Instalación Minimalista Linux 32-bits en mi caso
 **Hardware:** Intel Atom (32-bits) / 2GB RAM
 **Objetivo:** Sistema base en consola pura con entorno gráfico a demanda (Openbox), gestión de red terminal-gráfica y VPN WireGuard.
 
@@ -48,7 +48,7 @@ sudo apt install network-manager
 2. Comentar (añadir `#` al inicio) todas las líneas relacionadas con la tarjeta inalámbrica (ej. `wlan0`), dejando intactas `auto lo` e `iface lo inet loopback`.
 3. Reiniciar el servicio de red:
    ```bash
-   sudo systemctl restart NetworkManager
+   sudo systemctl restart networking
    ```
 
 **Configurar DNS de Quad9:**
@@ -64,9 +64,10 @@ sudo apt install network-manager
 Aplicaciones seleccionadas para operar con 2GB de RAM en un entorno de 32 bits:
 
 ```bash
-# Navegadores Web (Extremo vs Moderno equilibrado)
+# Navegadores Web (Extremo vs Moderno equilibrado) y firefox si fuese necesario
 sudo apt install dillo
 sudo apt install epiphany-browser
+sudo apt install firefox-esr
 
 # Ofimática ligera (Documentos y Hojas de cálculo)
 sudo apt install abiword gnumeric
