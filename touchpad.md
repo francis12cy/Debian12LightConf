@@ -219,21 +219,3 @@ A diferencia del Touchpad que requiere reinicio, Openbox puede recargar su confi
 openbox --reconfigure
 
 ```
-
----
-
-*Documentación generada automáticamente para respaldo de la configuración del sistema.*
-"""
-
-with open("Openbox_Debian13_Guia_Completa.md", "w", encoding="utf-8") as f:
-f.write(markdown_content)
-
-```
-Tu archivo MD con toda la documentación está listo:
-[file-tag: code-generated-file-0-1779324139421981218]
-
-He recopilado absolutamente todo lo que hemos hablado en este documento. Lo he dividido en secciones claras con los comandos exactos, las rutas de los archivos que editamos y las soluciones a los problemas de dependencias de los que hablamos al instalar archivos `.deb`.
-
-Puedes guardarlo en tu bóveda de Obsidian para tenerlo siempre a mano por si en el futuro decides reinstalar el sistema o instalar Openbox en otro ordenador. ¡Un placer ayudarte a configurar tu entorno!
-
-```
